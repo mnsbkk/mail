@@ -1,0 +1,67 @@
+textarea {
+    min-height: 300px;
+}
+ body {
+     background-color: #d5dbdb;
+ }
+
+.new-div-unread {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content:  space-between;
+    /*border: solid #edeceb 1px;*/
+    background-color: white;
+    border-radius: 15px;
+}
+
+.new-div-unread > .snd-label {
+    font-weight: bold;
+}
+
+.new-div-unread > .subj-label {
+    font-weight: bold;
+}
+
+.new-div-unread > .time-label {
+    font-weight: bold;
+}
+
+.new-div-read {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content:  space-between;
+    /*border:  solid #edeceb 1px;*/
+    background-color: #edeceb;
+    border-radius: 15px;
+}
+
+.snd-label, .subj-label, .time-label {
+    margin: 15px;
+}
+
+.new-div-read:hover{
+    background-color: #f8f6f4;
+}
+
+.new-div-unread:hover{
+    background-color: #f8f6f4;
+}
+
+.new-header-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1, .img2, .img3 {
+    height: 30px;
+    width: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.single-mail {
+    width: 100%;
+    padding: 10px;
+}
